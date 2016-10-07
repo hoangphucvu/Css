@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+</head>
+<body>
+	<p>The <ellipse> element is used to create an ellipse.
+		<br/>
+		An ellipse is closely related to a circle. The difference is that an ellipse has an x and a y radius that differs from each other, while a circle has equal x and y radius:
+	</br>
+	Example 1</p>
+	<svg height="140" width="500">
+		<ellipse rx="100" ry="50" cx="200" cy="80"
+		style="fill:yellow;stroke:purple;stroke-width:2"/>
+	</svg>
+	<p>
+		Code explanation:
+		<br/>
+		The cx attribute defines the x coordinate of the center of the ellipse<br/>
+		The cy attribute defines the y coordinate of the center of the ellipse<br/>
+		The rx attribute defines the horizontal radius<br/>
+		The ry attribute defines the vertical radius
+	</p>
+	<p>
+		Example 2<br/>
+		The following example creates three ellipses on top of each other:<br/>
+		<svg height="150" width="500">
+			<ellipse cx="240" cy="100" rx="220" ry="30" style="fill:purple" />
+			<ellipse cx="220" cy="70" rx="190" ry="20" style="fill:lime" />
+			<ellipse cx="210" cy="45" rx="170" ry="15" style="fill:yellow" />
+		</svg>
+	</p>
+	<p>
+		Example 3<br/>
+		The following example combines two ellipses (one yellow and one white):<br/>
+		<svg height="100" width="500">
+			<ellipse cx="240" cy="50" rx="220" ry="30" style="fill:red" />
+			<ellipse cx="220" cy="50" rx="190" ry="20" style="fill:blue" />
+		</svg>
+	</p>
+</body>
+</html>
