@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+</head>
+<body>
+	<p>
+		SVG Polygon - <polygon><br/>
+		The <polygon> element is used to create a graphic that contains at least three sides.<br/>
+		Polygons are made of straight lines, and the shape is "closed" (all the lines connect up).<br/>
+		<svg height="210" width="500">
+			<polygon points="200,10,250,190,160,210" style="fill:lime;stroke:purple;stroke-width:1"/>
+		</svg>
+		<br/>
+		<p>
+			Code explanation:
+			<br/>
+			The points attribute defines the x and y coordinates for each corner of the polygon
+		</p>
+	</p>
+	<p>
+		<svg height="250" width="500">
+			<polygon points="220,10,300,210,170,250,123,234" style="fill:lime;stroke:purple;stroke-width:1"/>
+		</svg>
+		<br/>
+		Use the <polygon> element to create a star:<br/>
+		<svg height="210" width="500">
+			<polygon points="100,10 40,198 190,78 10,78 160,198"
+			style="fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;" />
+		</svg>
+	</p>
+</body>
+</html>
